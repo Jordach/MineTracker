@@ -27,16 +27,16 @@ You can also use ```Command + Q``` on macOS, ```Alt + F4``` on all versions of W
 
 Note: LovePlayer can be launched separately.
 
-The primary GUI in Python will usefully export previews of your track into ```/loveplayer/playback.mtr```
+The primary GUI in Python will usefully export previews of your track into ```/loveplayer/playback.mtr
 
 Please note that the player will only look for a single file.
 
 # Potential Launching Issues:
 
-```launch-mac-global.sh``` is used for those with macOS or Mac OS X installs where Love2D is installed globally.
+```launch-player-mac-global.sh``` is used for those with macOS or Mac OS X installs where Love2D is installed globally.
 
-```launch-mac.sh``` is used with a portable version, which will be bundled with releases. It will not be contained within this repo.
+```launch-player-mac.sh``` is used with a portable version, which will be bundled with releases. It will not be contained within this repo.
 
-If Love2D is not working, try ```chmod 0777 launch-mac.sh``` is ran first while inside this directory. If ```launch-mac-global.sh``` fails to launch, use the previous ```chmod``` command, and use the ```launch-mac-global.sh``` in place of ```launch-mac.sh```.
+If Love2D is not working, try ```chmod 0777 launch-player-mac.sh``` is ran first while inside this directory. If ```launch-player-mac-global.sh``` fails to launch, use the previous ```chmod``` command, and use ```launch-player-mac-global.sh``` in place of ```launch-player-mac.sh```.
 
 Linux users, just open a terminal wherever inside this folder, and type ```love /loveplayer```.
