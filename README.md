@@ -27,11 +27,11 @@ You can also use ```Command + Q``` on macOS, ```Alt + F4``` on all versions of W
 
 Note: LovePlayer can be launched separately.
 
-The primary GUI in Python will usefully export previews of your track into /loveplayer/playback.mtr
+The primary GUI in Python will usefully export previews of your track into ```/loveplayer/playback.mtr```
 
 Please note that the player will only look for a single file.
 
-# Potential launching issues:
+# Potential Launching Issues:
 
 ```launch-mac-global.sh``` is used for those with macOS or Mac OS X installs where Love2D is installed globally.
 
