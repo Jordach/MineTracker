@@ -1,1 +1,1 @@
-love/love.app/Contents/MacOS/love loveplayer/
+/Applications/love.app/Contents/MacOS/ loveplayer/
