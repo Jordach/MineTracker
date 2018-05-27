@@ -3,7 +3,7 @@ MineTracker GUI and Love2D based player.
 
 Requires Löve2D, Lua 5.1, Python3.
 
-#Using the MineTracker:
+# Using the MineTracker:
 
 Adding new samples to your track? Make sure they're uniquely named, otherwise, name collisions will occur.
 
@@ -15,9 +15,7 @@ todo
 
 Using the preview button will launch the Love2D player alongside exporting the track as playback.mtr.
 
-
-
-#Using the LovePlayer:
+# Using the LovePlayer:
 
 The LovePlayer has two keys:
 
@@ -27,11 +25,13 @@ The LovePlayer has two keys:
 
 You can also use ```Command + Q``` on macOS, ```Alt + F4``` on all versions of Windows, and whatever sends the ```SIGKILL``` on Linux systems.
 
+Note: LovePlayer can be launched separately.
+
 The primary GUI in Python will usefully export previews of your track into /loveplayer/playback.mtr
 
 Please note that the player will only look for a single file.
 
-#Potential launching issues:
+# Potential launching issues:
 
 ```launch-mac-global.sh``` is used for those with macOS or Mac OS X installs where Love2D is installed globally.
 
